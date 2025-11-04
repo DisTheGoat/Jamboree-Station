@@ -6,6 +6,7 @@
 // SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
 // SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 JamboreeBot <JamboreeBot@proton.me>
+// SPDX-FileCopyrightText: 2025 Lumminal <81829924+Lumminal@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 SX-7 <sn1.test.preria.2002@gmail.com>
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
@@ -39,6 +40,7 @@ public sealed class CrayonSystem : SharedCrayonSystem
         component.SelectedState = state.State;
         component.Charges = state.Charges;
         component.Capacity = state.Capacity;
+        component.Infinite = state.Infinite; // Impstation
 
         component.UIUpdateNeeded = true;
     }
@@ -82,7 +84,8 @@ public sealed class CrayonSystem : SharedCrayonSystem
                 ("color",_parent.Color),
                 ("state",_parent.SelectedState),
                 ("charges", _parent.Charges),
-                ("capacity",_parent.Capacity)));
+                ("capacity",_parent.Capacity),
+                ("infinite", _parent.Infinite))); // Impstation
         }
     }
 }
