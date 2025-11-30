@@ -33,6 +33,10 @@
     - MindRoleGhostRoleSilicon
     raffle:
       settings: default
+    requirements: # Jamboree, Fix for Syndie Borg
+    - !type:RoleTimeRequirement
+      role: JobBorg
+      time: 36000 #10 hours
   - type: Sprite
     sprite: Markers/jobs.rsi
     layers:
