@@ -343,12 +343,6 @@
     - ClothingNeckCloakAro
 
 - type: loadout
-  id: ClothingNeckCloakAro
-  storage:
-    back:
-    - ClothingNeckCloakAro
-
-- type: loadout
   id: ClothingNeckCloakAroAce
   storage:
     back:
