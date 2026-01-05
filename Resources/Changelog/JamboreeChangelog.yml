@@ -403,3 +403,22 @@ Entries:
         loadouts! Finally... Pirate Passenger...
   id: 52
   time: '2026-01-01T20:09:39.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: >-
+        Added several pieces of clothing from Funkystation! Check out the
+        Bartender, Medical Doctor, Mime, Clown, Quartermaster, Roboticist,
+        Paramedic, Janitor, Chef, and Quartermaster's loadouts in the lobby!
+    - type: Add
+      message: Added several dresses to the Assistant's loadout!
+    - type: Tweak
+      message: >-
+        Musicians can no longer start rounds without shoes. You can still take
+        off your shoes though!
+    - type: Tweak
+      message: >-
+        Chaplains now start rounds without shoes! They also have some shoe
+        options in the loadout menu!
+  id: 53
+  time: '2026-01-05T21:40:08.0000000+00:00'
