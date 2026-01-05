@@ -71,6 +71,9 @@
     ClothingUniformJokester: 1 #imp
     ClothingOuterCoatJokester: 1 #imp
     ClothingShoesJokester: 1 #imp
+    ClothingMaskClownDevil: 1 #funky
+    ClothingMaskClownGamble: 1 #funky
+    ClothingMaskClownJuggle: 1 #funky
     ClothingMaskClownNose: 2 #imp
     ClothingNeckRuffle: 2 #imp
     ClothingOuterWinterClown: 1
@@ -126,6 +129,7 @@
     ClothingOuterClownPriest: 1
     ClothingMaskSadMime: 1
     ClothingMaskScaredMime: 1
+    ClothingMaskOddMime: 1 #funky
     ClothingUniformJumpsuitKimono: 1
     ClothingHeadHatCasa: 1
     FoodPoppy: 1
