@@ -422,3 +422,9 @@ Entries:
         options in the loadout menu!
   id: 53
   time: '2026-01-05T21:40:08.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Remove
+      message: Removed deathmatch from the gamemode vote
+  id: 54
+  time: '2026-01-06T12:44:58.0000000+00:00'
