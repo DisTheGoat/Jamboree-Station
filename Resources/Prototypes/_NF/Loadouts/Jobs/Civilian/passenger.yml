@@ -82,25 +82,6 @@
 # SPDX-FileCopyrightText: 2025 starch <starchpersonal@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
-# Greytide Time
-- type: loadoutEffectGroup
-  id: GreyTider
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobPassenger
-      time: 36000 #10 hrs, silly reward for people who play passenger a lot
-
-# Head of Greytide (for grey mantle)
-- type: loadoutEffectGroup
-  id: MasterGrey
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobPassenger
-      time: 72000 #20 hrs, fun mantle for the most experienced greytiders
 
 #mask
 

@@ -76,15 +76,6 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-- type: loadoutEffectGroup
-  id: MasterLawyer #jamboree & funky
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobLawyer
-      time: 216000 #60 hrs
-
 # Hats
 - type: loadout
   id: SupremeLawyerHead

@@ -76,15 +76,6 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-- type: loadoutEffectGroup
-  id: MasterServiceWorker #jamboree 
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobServiceWorker
-      time: 216000 #60 hrs
-
 # Jumpsuit
 - type: loadout
   id: ValetSuit
@@ -92,6 +83,6 @@
     jumpsuit: ClothingUniformJumpsuitValet
 
 - type: loadout
-  id: ValetSkirt 
+  id: ValetSkirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtValet

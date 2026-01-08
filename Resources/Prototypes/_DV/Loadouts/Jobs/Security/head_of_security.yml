@@ -79,18 +79,9 @@
 # SPDX-FileCopyrightText: 2025 pheenty <fedorlukin2006@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
-# For mantles
-- type: loadoutEffectGroup
-  id: MasterHoS
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobHeadOfSecurity
-      time: 72000 #20 hrs
 
 # Head
 - type: loadout
-  id: HoSCowboy 
+  id: HoSCowboy
   equipment:
     head: ClothingHeadHatHosCowboyhat
