@@ -90,14 +90,6 @@
   equipment:
     head: ClothingHeadHatChef
 
-- type: loadout
-  id: MasterChefHead # funky
-  equipment:
-    head: ClothingHeadHatMasterChef
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterChef
-
 # Mask
 - type: loadout
   id: ChefMask
@@ -115,14 +107,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtChef
 
-- type: loadout
-  id: MasterChefSuit #funky
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitMasterChef
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterChef
-
 # Outer clothing
 - type: loadout
   id: ChefApron
@@ -138,20 +122,4 @@
   id: ChefWintercoat
   equipment:
     outerClothing: ClothingOuterWinterChef
-
-- type: loadout
-  id: MasterChefJacket #funky
-  equipment:
-    outerClothing: ClothingOuterJacketMasterChef
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterChef
-
-- type: loadout
-  id: MasterChefWintercoat #funky
-  equipment:
-    outerClothing: ClothingOuterWinterMasterChef
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterChef
 

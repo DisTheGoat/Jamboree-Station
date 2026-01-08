@@ -50,6 +50,7 @@ loadout-group-captain-outerclothing = Captain outer clothing
 loadout-group-captain-gloves = Captain gloves
 
 loadout-group-hop-head = Head of Personnel head
+loadout-group-hop-gloves = Head of Personnel gloves
 loadout-group-hop-jumpsuit = Head of Personnel jumpsuit
 loadout-group-hop-neck = Head of Personnel neck
 loadout-group-hop-backpack = Head of Personnel backpack
@@ -64,6 +65,10 @@ loadout-group-passenger-outerclothing = Passenger outer clothing
 loadout-group-passenger-shoes = Passenger shoes
 loadout-group-passenger-neck = Passenger neck
 
+loadout-group-serviceworker-head = Service Worker head
+loadout-group-serviceworker-jumpsuit = Service Worker jumpsuit
+loadout-group-serviceworker-outerclothing = Service Worker outer clothing
+
 loadout-group-bartender-head = Bartender head
 loadout-group-bartender-jumpsuit = Bartender jumpsuit
 loadout-group-bartender-outerclothing = Bartender outer clothing
@@ -76,6 +81,7 @@ loadout-group-chef-outerclothing = Chef outer clothing
 loadout-group-librarian-head = Librarian head
 loadout-group-librarian-jumpsuit = Librarian jumpsuit
 
+loadout-group-lawyer-head= Lawyer head
 loadout-group-lawyer-jumpsuit = Lawyer jumpsuit
 loadout-group-lawyer-neck = Lawyer neck
 
@@ -188,6 +194,7 @@ loadout-group-warden-jumpsuit = Warden jumpsuit
 loadout-group-warden-outerclothing = Warden outer clothing
 
 loadout-group-security-head = Security head
+loadout-group-security-face = Security face
 loadout-group-security-jumpsuit = Security jumpsuit
 loadout-group-security-backpack = Security backpack
 loadout-group-security-belt = Security Belt
