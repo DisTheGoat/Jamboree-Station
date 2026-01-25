@@ -544,3 +544,11 @@ Entries:
       message: Removed BSO from cluster, delta, and fland
   id: 62
   time: '2026-01-25T20:19:46.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to kettle, leonid, and loop
+    - type: Remove
+      message: Removed BSO from kettle, leonid, and loop
+  id: 63
+  time: '2026-01-25T21:28:20.0000000+00:00'
