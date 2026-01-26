@@ -53,6 +53,7 @@ public sealed class MagnetPickupSystem : EntitySystem
         SubscribeLocalEvent<MagnetPickupComponent, ExaminedEvent>(OnExamined); // WD EDIT
         SubscribeLocalEvent<MagnetPickupComponent, MapInitEvent>(OnMagnetMapInit);
     }
+
     //WD EDIT start
     private void OnExamined(Entity<MagnetPickupComponent> entity, ref ExaminedEvent args)
     {
