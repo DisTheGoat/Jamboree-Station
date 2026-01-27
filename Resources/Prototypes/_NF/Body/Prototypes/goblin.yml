@@ -6,20 +6,26 @@
     head:
       part: HeadGoblin
       connections:
-      - torso
+      - chest
       organs:
         brain: OrganGoblinBrain
         eyes: OrganGoblinEyes
-    torso:
-      part: TorsoGoblin
+    chest:
+      part: ChestGoblin
       connections:
+      - groin
       - right arm
       - left arm
-      - right leg
-      - left leg
+      - head
       organs:
         heart: OrganGoblinHeart
         lungs: OrganGoblinLungs
+    groin:
+      part: GroinGoblin
+      connections:
+      - right leg
+      - left leg
+      organs:
         stomach: OrganGoblinStomach
         liver: OrganGoblinLiver
         kidneys: OrganGoblinKidneys
