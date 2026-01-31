@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # Goblins
 - type: emoteSounds
   id: MaleGoblin
@@ -42,6 +46,10 @@
       collection: GoblinMutterCollection
     GoblinThroatSinging:
       collection: GoblinThroatSingingCollection
+    Gulp: # Goob
+      path: /Audio/_Goobstation/Voice/Human/gulp.ogg
+    Surprised: # Goob
+      path: /Audio/_Goobstation/Voice/surprised.ogg
 
 - type: emoteSounds
   id: FemaleGoblin
@@ -86,3 +94,7 @@
       collection: GoblinMutterCollection
     GoblinThroatSinging:
       collection: GoblinThroatSingingCollection
+    Gulp: # Goob
+      path: /Audio/_Goobstation/Voice/Human/gulp.ogg
+    Surprised: # Goob
+      path: /Audio/_Goobstation/Voice/surprised.ogg
